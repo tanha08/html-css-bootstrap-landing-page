@@ -1,0 +1,92 @@
+/* hero sention style */
+.hero-container{
+    background-image: url("../img/bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 660px;
+     width: 100%;
+    background-color: linear-gradient(rgba(52, 8, 172, 0.959),rgb(55, 21, 207)),
+    
+}
+.hero-container h1{
+    width: 380px;
+     margin: auto; 
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+}
+/* hero style */
+.email-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 600px;
+    margin: auto;
+}
+.form-control{
+    /* border: 1px solid red; */
+    height: 60px;
+}
+.btn{
+    margin-top: 8px;
+    height: 60px;
+    width: 120px;
+}
+/* card */
+.image1{
+    height: 80px;
+    width: 60px;
+    margin: auto;
+    padding-top: 30px;
+}
+/* responsive */
+.responce{
+    display: flex;
+    justify-content: space-between;
+}
+.responce-title{
+   width: 100%; 
+   margin: auto;
+    margin-left: 90px; 
+}
+.responce-title p{
+    width: 380px;
+    
+}
+.responsive-img{
+    height: 400px;
+    width: 650px;
+}
+/* testmonial */
+.card-img-top{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border: 1px solid gray;
+    
+}
+/* hero2 */
+.hero-container2{
+    background-image: url("../img/bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+     width: 100%;
+    background-color: linear-gradient(rgba(52, 8, 172, 0.959),rgb(55, 21, 207)),  
+}
+.hero-container2 h1{
+    width: 700px;
+     margin: auto; 
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+/* footer */
+.footer1{
+    height: 80px;
+    width: auto;
+    padding: 30px;
+    text-align: center;
+}
